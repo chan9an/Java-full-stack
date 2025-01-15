@@ -20,7 +20,7 @@ class Pulsar extends Bike {
    
 }
 
-public class MultilevelInheritance {
+public class multilevelInheritance {
 
     public static void main(String[] args) {
         Vechicle v = new Vechicle();
