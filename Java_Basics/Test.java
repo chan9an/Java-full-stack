@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 class Person{
 	int id;
 	String name;
