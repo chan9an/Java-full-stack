@@ -1,5 +1,5 @@
 // Bank interface declaration
-public interface Bank {
+interface Bank {
     float getRateOfInterest();  
 }
 
