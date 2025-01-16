@@ -15,7 +15,7 @@ class Student extends Person {
         super(id, name);
         this.grade = grade;
     }
-
+  
     public void display() {
         System.out.println("id: " + id + " Name: " + name + " Grade: " + grade);
     }
