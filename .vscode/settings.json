@@ -4,5 +4,6 @@
         "lib/**/*.jar",
         "Java Database Connector/Java Database Connector/lib/mysql-connector-java.jar",
         "/home/csr/Downloads/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
