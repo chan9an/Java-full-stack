@@ -14,7 +14,7 @@ public class SelectData {
         Configuration config = new Configuration().configure("hibernate.cfg.xml");
         SessionFactory sessionFactory = config.buildSessionFactory();
 
-        Session session = sessionFactory.openSession();    
+        Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
 
         Query q = session.createQuery("FROM Employee123"); // Querying based on the entity name
