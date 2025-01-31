@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoexampleApplication<springbootfirst>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.lpu.springbootfirst.DemoexampleApplication",
+            "projectName": "springbootfirst",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=46237 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=springbootfirst"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootfirstApplication<springbootfirst>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.lpu.springbootfirst.SpringbootfirstApplication",
+            "projectName": "springbootfirst",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PlayermodelApplication<com.playermodel-playermodel>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.playermodel.playermodel.PlayermodelApplication",
+            "projectName": "com.playermodel-playermodel",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
