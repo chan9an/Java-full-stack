@@ -1,5 +1,12 @@
-package com.playermodel.playermodel;
+package com.database.database;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/players")
 public class PlayerModel {
     public int id;
     private String name;

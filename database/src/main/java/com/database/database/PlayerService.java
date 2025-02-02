@@ -1,4 +1,5 @@
-package com.playermodel.playermodel;
+package com.database.database;
+
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,3 +45,4 @@ public class PlayerService {
        }
     }
 }
+

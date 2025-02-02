@@ -1,4 +1,5 @@
-package com.playermodel.playermodel;
+package com.database.database;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -39,3 +40,4 @@ public class PlayerController {
 
 
 }
+
