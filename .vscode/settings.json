@@ -6,5 +6,6 @@
         "/home/csr/Downloads/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar"
     ],
     "java.configuration.updateBuildConfiguration": "interactive",
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.dependency.packagePresentation": "flat"
 }

@@ -30,6 +30,59 @@
             "projectName": "com.playermodel-playermodel",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserMsApplication<com.ms-user_ms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ms.user_ms.UserMsApplication",
+            "projectName": "com.ms-user_ms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=46203 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=com.ms-user_ms"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ContactMsApplication<com.contact_ms-contact_ms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.contact_ms.contact_ms.ContactMsApplication",
+            "projectName": "com.contact_ms-contact_ms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=45363 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=com.contact_ms-contact_ms"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserMicroserviceApplication<com.ms-user_ms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ms.user_ms.UserMicroserviceApplication",
+            "projectName": "com.ms-user_ms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=35401 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=com.ms-user_ms"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaseverApplication<com.eurekaserver-eurekasever>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.eurekaserver.eurekasever.EurekaseverApplication",
+            "projectName": "com.eurekaserver-eurekasever",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiApplication<com.api-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.api.api.ApiApplication",
+            "projectName": "com.api-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
